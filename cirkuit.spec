@@ -16,7 +16,6 @@ Requires:	kde4-icons-oxygen
 Requires:	m4
 Requires:	texlive-dvips
 Requires:	texlive-latex
-Requires:	texlive-latex-circuit_macros
 Requires:	texlive-pdftex
 Requires:	texlive-psutils
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
