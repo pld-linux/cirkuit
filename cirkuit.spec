@@ -9,8 +9,14 @@ Source0:	http://wwwu.uni-klu.ac.at/magostin/src/%{name}-%{version}.tar.gz
 # Source0-md5:	17190f98f03f73c2527026bdbd065552
 %define	builddir build
 URL:		http://wwwu.uni-klu.ac.at/magostin/cirkuit.html
+BuildRequires:	QtNetwork-devel
+BuildRequires:	QtSvg-devel
+BuildRequires:	automoc4
 BuildRequires:	cmake
 BuildRequires:	kde4-kdelibs-devel
+BuildRequires:	qt4-build
+BuildRequires:	qt4-qmake
+BuildRequires:	shared-mime-info >= 0.70
 Requires:	ghostscript
 Requires:	kde4-icons-oxygen
 Requires:	m4
